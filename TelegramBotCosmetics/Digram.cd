@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TelegramBotCosmetics.Domain.Entity.Catalog">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAACAAAAAAAAAQAAAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity\Catalog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.Formula">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity\Formula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.Item">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAmAAAAgYAgAAACAAAAAAQAAAAAAABAAQAAAAABAAA=</HashCode>
+      <FileName>Domain\Entity\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tag" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Catalogs" />
+      <Property Name="Formulas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.People">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAABAAAAQAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity\People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TypeCatalogs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.Tag">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity\Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.TypeCatalog">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Entity\TypeCatalog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Peoples" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TelegramBotCosmetics.Domain.Entity.WhiteFormula">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQQAAA=</HashCode>
+      <FileName>Domain\Entity\WhiteFormula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
